@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- F    a  h   a   s  o   a  v  a  n  a    M   H  Port Folio -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahasoavana MH</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+body {
+    font-family: Georgia, Times New Roman, serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #007bff; /* Bleu */
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@keyframes type {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+ul#action_list {
+    display : flex;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 0.5%;
+}
+
+a {
+    cursor: pointer;
+    font-size: large;
+    font-family: Gilroy;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+li.list_link {
+   padding-right: 3.5%;
+    width: -webkit-fill-available;
+    border-radius: 10px;
+}
+
+
+nav {
+    border: ridge;
+    background-color: #60708e4a;
+}
+
+h2 {
+    background-color: azure;
+    width: 23em;
+}
+div#list_fin_line {
+    display: ruby-text;
+    background: repeating-linear-gradient(45deg, #9bdcf0, transparent 60px);
+}
+p.fin-line {
+    margin-right: 4%;
+    border-left: solid;
+}
+div#body {
+    border: double;
+    background-color: snow;
+    width: min-content;
+    padding: 1%;
+    border-color: #00000047;
+}
+p#footer_fin_line {
+    background-color: #3333332e;
+    color: #000000;
+    text-align: center;
+}
+td {
+    font-size: 0.7em;
+}
+th {
+    font-size: 0.8em;
+}
+
+
+</style>
+</head>
+<body>
+<div id="body">
+    <header>
+        <h1>Fahasoavana Maxime Henri</h1>
+        <h1 id="first_name">RATOVOARISOA</h1>
+        <nav>
+            <ul id="action_list">
+                <li class="list_link"><a href="#a-propos">À propos</a></li>
+                <li class="list_link"><a href="#competences">Compétences</a></li>
+                <li class="list_link"><a href="#experiences">Expériences</a></li>
+                <li class="list_link"><a href="#projets">Projets</a></li>
+                <li class="list_link"><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="a-propos">
+        <h2>À propos</h2>
+        <p>"Votre partenaire de confiance pour tous vos besoins en développement web."</p>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>C.A.O et M.A.O</li>
+            <li>Outils Office</li>
+        </ul>
+    </section>
+
+    <section id="experiences">
+        <h2>Expériences</h2>
+        <div class="experience">
+            <h3>Vivetic Group | Conseiller Technique</h3>
+            <p>Mars 2024 – Novembre 2024</p>
+            <p>Assistance technique </p>
+        </div>
+        <div class="experience">
+            <h3>Intelcia Madagascar | Conseiller commercial</h3>
+            <p>Avril 2023 – Fevrier 2024</p>
+            <p>Propulsion de vente, prospection, SAV</p>
+        </div>
+        <div class="experience">
+            <h3>Bocasay | SysAdmin</h3>
+            <p>Fevrier 2023 – Avril 2023</p>
+            <p>Maintenance : Préventive, Curative</p>
+        </div>
+        <div class="experience">
+            <h3>Webhelp Madagascar | Conseiller Client</h3>
+            <p>Octobre 2021 – Fevrier 2023</p>
+            <p>Suivi de colis, assistance technique, modération des avis clients</p>
+        </div>
+        </section>
+
+    <section id="projets">
+        <h2>Projets</h2>
+<table>
+  <tr>
+    <th>Projet</th>
+    <th>Description</th>
+    <th>Technologies</th>
+    <th>Lien</th>
+  </tr>
+  <tr>
+    <td>Application de gestion de tâches</td>
+    <td>Application web permettant de créer, d'organiser et de suivre des tâches.</td>
+    <td>React, Node.js, MongoDB, Material UI</td>
+    <td><a href="https://monprojet.com">https://monprojet.com</a></td>
+  </tr>
+  <tr>
+    <td>Site web de portfolio personnel</td>
+    <td>Mon portfolio en ligne, réalisé avec Gatsby et GraphQL.</td>
+    <td>Gatsby, GraphQL, Contentful</td>
+    <td><a href="https://monportfolio.com">https://monportfolio.com</a></td>
+  </tr>
+  <tr>
+    <td>Jeu vidéo 2D</td>
+    <td>Jeu vidéo 2D développé avec Unity.</td>
+    <td>Unity, C#</td>
+    <td><a href="https://www.youtube.com/watch?v=exemple">Lien vers une vidéo</a></td>
+  </tr>
+</table>
+
+        </section>
+
+    <section id="contact">
+        <h2>Contacts</h2>
+        <p>N'hésitez pas à me contacter pour tout projet ou opportunité.</p>
+<div id="list_fin_line">
+        <p class="fin-line">Email : fahasoavanamh@gmail.com</p>
+        <p class="fin-line">Téléphone : +261 34 02 814 11</p>
+</div>
+    </section>
+
+    <footer>
+        <p id="footer_fin_line">&copy; Fahasoavana MH - 2024</p>
+    </footer>
+
+    <script src="script.js">
+// Sélectionner l'élément h1
+const titre = document.querySelector('h1#first_name');
+
+// Créer une fonction pour créer les spans
+function createSpans(text) {
+  let spans = '';
+  for (let i = 0; i < text.length; i++) {
+    spans += `<span>${text[i]}</span>`;
+  }
+  return spans;
+}
+
+// Remplacer le contenu de h1 par les spans
+titre.innerHTML = createSpans(titre.textContent);
+
+// Appliquer les styles CSS (vous pouvez personnaliser les valeurs)
+const spans = document.querySelectorAll('h1 span');
+spans.forEach(span => {
+  span.style.display = 'inline-block';
+  span.style.animation = 'type 2.5s steps(10, end) forwards';
+  span.style.transform = 'translateX(100%)';
+  span.style.opacity = 0;
+});
+
+</script>
+</div>
+</body>
+</html>
